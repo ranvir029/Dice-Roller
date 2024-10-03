@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+.container h1{
+    color: #8d19dd;
+  text-shadow: 3px 3px 2px black;
+}
+
+#valueblock {
+    height: 23px;
+    padding: 4px 7px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#Roll {
+    font-size: 1.3rem;
+    margin: 12px 8px;
+    background: hsl(238, 90%, 47%);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  color: white;
+  box-shadow: 5px 3px 2px black;
+}
+#Roll:hover{
+    background-color: hsl(226, 100%, 35%);
+}
+#Roll:active{
+    background-color: hsl(238, 90%, 61%);
+}
+#diceimages img{
+    height: 71px;
+    margin: 34px;
+    width: 80px;
+}
